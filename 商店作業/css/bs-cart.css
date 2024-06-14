@@ -1,0 +1,595 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    background: linear-gradient(to bottom left, #ccddff, #eddafc);
+    background: #eddafc;
+    background: -webkit-linear-gradient(to right, #ccddff, #eddafc);
+    background: linear-gradient(to top left, #ccddff, #eddafc);
+    font-weight: 400 !important;
+    color: #585858 !important;
+}
+
+a {
+    color: rgba(33, 37, 41, 0.75) !important;
+    text-decoration: none !important;
+}
+
+p {
+    margin: 0 !important;
+}
+
+img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.btn-primary {
+    --bs-btn-bg: #8060df !important;
+    --bs-btn-border-color: #8060df !important;
+    --bs-btn-hover-bg: #483485 !important;
+    --bs-btn-hover-border-color: #483485 !important;
+    --bs-btn-focus-shadow-rgb: 49, 132, 253;
+    --bs-btn-active-bg: #b69ffa !important;
+    --bs-btn-active-border-color: #b69ffa !important;
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-bg: #8060df !important;
+    --bs-btn-disabled-border-color: #8060df !important;
+}
+
+.btn-outline-primary {
+    --bs-btn-color: #8060df !important;
+    --bs-btn-border-color: #8060df !important;
+    --bs-btn-hover-bg: #483485 !important;
+    --bs-btn-hover-border-color: #483485 !important;
+    --bs-btn-focus-shadow-rgb: 49, 132, 253;
+    --bs-btn-active-bg: #b69ffa !important;
+    --bs-btn-active-border-color: #b69ffa !important;
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-bg: #8060df !important;
+    --bs-btn-disabled-border-color: #8060df !important;
+}
+/* .bg-purple{
+    background-color: #8060df;
+} */
+/* nav-bar */
+.nav-y {
+    max-width: 60em;
+}
+
+.logo {
+    max-width: 80px;
+}
+
+.bg-body-color {
+    --bs-bg-opacity: 1;
+    background-color: #fff !important;
+}
+
+.content-bg {
+    width: 100%;
+}
+
+.content-bg-white {
+    background-color: rgb(255 255 255 / 75%) !important;
+}
+
+.content {
+    margin: 0 auto;
+    background-color: #fff;
+    max-width: 60em;
+    padding: 3rem;
+    width: 100%;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.title1 {
+    font-size: 1.7rem !important;
+    padding-top: 1rem;
+}
+
+.title2 {
+    font-size: 1.5rem;
+    font-weight: 300;
+    line-height: 1.2;
+    padding-top: 1rem;
+}
+
+/* 購物進度 */
+.number-circle {
+    border-radius: 50px;
+    color: #fff;
+    background-color: #9b88d6;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    align-content: center;
+    font-size: 20px;
+    z-index: 2;
+    position: relative;
+    margin: 7px 0;
+}
+
+/* .progress-area {
+    display: flex;
+    margin: 3rem
+} */
+
+.progress {
+    --bs-progress-bg: #f0ebff !important;
+    width: -webkit-fill-available;
+    top: 32%;
+    margin: 0 0 0 2.5rem !important;
+    height: 10px !important;
+    border-radius: 50px !important;
+    --bs-progress-bar-bg: #af9fe0 !important;
+}
+
+/* 增 */
+.my-step {
+    position: relative;
+}
+
+.my-progress {
+    position: absolute;
+    width: calc(100% - 50px - 10px);
+    /* top: 50%; */
+    left: 50%;
+    transform: translate(-0.65rem, 0);
+
+}
+
+.step1to2 p {
+    display: block;
+    font-size: 1rem;
+    position: relative;
+    left: 0;
+    text-align: center;
+    color: #3c3854;
+}
+
+/* 商品圓圖片 */
+.circle-img {
+    border-radius: 50% !important;
+    max-width: 80px !important;
+    height: 80px !important;
+}
+
+.count-area {
+    align-content: center;
+}
+
+.count {
+    width: -webkit-fill-available;
+    text-align: -webkit-center;
+}
+
+.price p {
+    display: contents;
+}
+
+.total-list {
+    text-align: end;
+}
+
+.button-area .btn {
+    max-width: 10rem;
+}
+.button-area a{
+    display: contents;
+}
+
+.button-area {
+    text-decoration: none;
+}
+
+.footer-icons {
+    max-width: 6em !important;
+}
+
+.footer-logo {
+    width: fit-content;
+}
+
+.footer-copyright {
+    background-color: #7a68ae;
+}
+
+.footer-copyright .text-secondary {
+    color: #fff !important;
+}
+
+.copyright span {
+    font-size: 12px;
+}
+
+.footer-logo-name {
+    font-size: 0.8rem;
+    color: gray;
+    margin: 0;
+}
+
+.footer-content .nav-item {
+    font-size: 0.8rem;
+}
+
+.footer-content h5 {
+    font-size: 0.8rem;
+    color: gray;
+}
+
+/* chart-2 */
+/* 付款方式&運送方式表單 */
+.form-check-input:checked {
+    background-color: #8060df !important;
+    border-color: #8060df !important;
+}
+
+/* 填資料 */
+.address .col-6 {
+    width: 48% !important;
+}
+
+/* cart-4 */
+.imformation .total-title {
+    color: #585858 !important;
+    font-weight: 400;
+    line-height: 2rem;
+}
+
+.backtohome {
+    flex-flow: row-reverse;
+}
+
+.backtohome-btn {
+    display: block;
+    width: 10em;
+}
+
+.howmany {
+    text-align: end;
+}
+
+
+/* index.html */
+.main-section-width {
+    width: 90%;
+    margin: auto;
+}
+
+.container-text {
+    max-width: 50rem;
+    margin: auto;
+}
+
+.card-group {
+    justify-content: space-between;
+}
+
+.card-group .card {
+    margin: 10px;
+    border-radius: 10px !important;
+}
+
+/* main-section-width的上下margin */
+.msw-m {
+    width: 100%;
+    margin: 3rem auto !important;
+}
+
+.container-icon-1 {
+    display: block;
+    width: 3.7em;
+    height: auto;
+    min-width: 3.5em;
+    min-height: 3.5em;
+    border-radius: 50%;
+    background-color: #fff;
+    padding: 1rem;
+    color: #8060df;
+    margin: 2em auto;
+    scale: 1.2;
+}
+
+.container-icon-2 {
+    display: flex;
+    width: 6em !important;
+    height: auto;
+    min-width: 3.5em;
+    min-height: 3.5em;
+    border-radius: 50%;
+    background-color: #fff;
+    padding: 2rem;
+    color: #8060df;
+    margin: 2em auto;
+    align-items: center;
+    justify-content: center;
+}
+
+.container-icon-2 i {
+    scale: 2;
+}
+
+.container-icon-texts .card {
+    --bs-card-bg: none !important;
+    --bs-card-border-color: none !important;
+}
+
+.container-icon-texts .btn {
+    max-width: 10rem;
+    margin: auto
+}
+
+.stras {
+    display: inline-block;
+}
+
+.color-link {
+    color: #8060df !important;
+    margin: 1rem 0 !important;
+}
+
+.product-one .icons {
+    display: inline-block;
+
+    color: #585858;
+}
+.product-item{
+    margin-bottom: 1.5em;
+}
+.left-pic {
+    /* min-width: 400px; */
+    min-height: 400px;
+    display: block;
+    background-image: url(../img/toy1.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.six-img img {
+    width: 100% !important;
+}
+
+.color-group {
+    display: inline-flex;
+}
+
+.color-g {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #333;
+    margin: 5px;
+}
+
+.color-1 {
+    background-color: #8060df;
+}
+
+.color-2 {
+    background-color: #df60bf;
+}
+
+.color-3 {
+    background-color: #3e8fdf;
+}
+
+.form-select {
+    display: inline-block !important;
+    max-width: 100px;
+}
+
+.google-map {
+    position: relative;
+    background-color: #f3f7ff;
+}
+
+.google-map iframe {
+    width: -webkit-fill-available !important;
+}
+
+.feed-back {
+    position: absolute;
+    background-color: #fff;
+    width: 60%;
+    max-width: 500px;
+    border-radius: 10px;
+    padding: 3rem 2rem;
+    top: 50%;
+    right: 5%;
+    transform: translate(0, -50%);
+}
+
+.heart-btn {
+    background-color: #8060df;
+    border-radius: 50%;
+    width: 30px;
+    display: block;
+    color: #f0ebff;
+    text-align: center;
+    /* place-content: center; */
+    height: 30px;
+    display: inline-block;
+    position: relative;
+}
+
+.heart-btn i {
+    top: 10%;
+    position: relative;
+}
+
+.p-cate {
+    font-size: 0.6rem !important;
+    margin: 10px auto 4px !important;
+}
+
+.learnmore {
+    color: #8060df !important;
+    padding: 10px 0;
+}
+
+.learnmore:hover {
+    color: #432f7e !important;
+}
+
+.index-form{
+    left: calc(50% - (16px/2));
+    position: relative;
+}
+
+@media (min-width:992px) {
+    .main-section-width {
+        width: 70% !important;
+    }
+
+    .container-icon-2 {
+        padding: 3.5em !important;
+        height: 10px;
+    }
+
+    .right-info {
+        padding-left: 2rem !important;
+    }
+}
+
+@media (max-width:992px) {
+    .progress-area {
+        margin: 0 !important;
+    }
+
+    .content {
+        max-width: 90%;
+    }
+
+    .fa-circle-user {
+        margin-left: 5px;
+    }
+
+    .fa-cart-shopping {
+        margin-right: 5px;
+    }
+    .texts {
+        margin: 1.5em auto 0 !important;
+
+    }
+}
+
+@media (min-width:768px) {
+    .main-section-width {
+        width: 80%;
+    }
+
+    .container-icon-2 {
+        padding: 2.9em !important;
+        height: 1em;
+    }
+
+}
+
+@media (max-width:768px) {
+    .footer-content {
+        text-align: center;
+    }
+
+    .footer-logo {
+        margin: 0 auto;
+    }
+
+    .footer-col-m {
+        margin-bottom: 2rem;
+    }
+
+    .number-circle {
+        width: 35px;
+        height: 35px;
+        font-size: 18px;
+    }
+
+    .step1to2 p {
+        font-size: 0.8rem;
+    }
+
+    .my-progress {
+        width: calc(100% - 46px);
+        top: 35%;
+        left: 50%;
+        transform: translate(-1.1rem, 0);
+        height: 8px !important;
+    }
+
+    .backtohome {
+        justify-content: center;
+    }
+
+    .container-icon-2 {
+        width: 5.1em !important;
+    }
+    .feed-back {
+        width: 90%;
+        max-width: 500px;
+        top: 50%;
+        right: 0;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+}
+
+@media (min-width:425px)and (max-width:611px) {
+    .my-progress {
+        top: 24% !important;
+    }
+}
+
+@media (max-width: 576px) {
+    .card-group .card {
+        margin: 0.8rem auto !important;
+        max-width: 90%;
+    }
+}
+
+@media (max-width:425px) {
+    .row {
+        --bs-gutter-x: 0 !important;
+    }
+
+    .cart-item .cart-item-p {
+        padding: 0;
+        max-width: fit-content;
+    }
+
+    .content {
+        padding: 1.5rem;
+    }
+
+    .step1to2 {
+        padding: 0 !important;
+    }
+
+    .step1to2 p {
+        font-size: 0.6rem;
+    }
+
+    .cart-item .text-emphasis,
+    .cart-item .text-body-tertiary,
+    .cart-item .price {
+        font-size: 12px;
+    }
+
+    .icon-link span {
+        --bs-btn-font-size: 0.9rem;
+        font-size: 0.9rem;
+    }
+
+    .button-area .btn {
+        --bs-btn-font-size: 0.9rem;
+        max-width: 8rem;
+    }
+
+    .copyright span {
+        font-size: 10px;
+    }
+}
